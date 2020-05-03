@@ -1,0 +1,182 @@
+   .content{
+    display: block;
+    background-position-x: right;
+    background-image: url(img/announcements.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    height: 800px;
+    }
+
+    .container {
+        display              : grid;
+        grid-template-columns: auto 65%;
+        padding-top          : 5%;
+        padding-left         : 5%;
+    }
+    .logo {
+        margin-left:-100px;
+        margin-top: -100px;
+      height: 200px;
+      width: 400px;
+    
+    }
+    nav {
+        display              : grid;
+        grid-template-columns: 10% 17% 10% 10% 10% 13% 10%;
+        grid-gap             : 10px;
+        padding-top          : 3%;
+        font-size            : 18px;
+        height               : 8%;
+    }
+    .navtop {
+        padding-top   : 1.1%;
+        width         : 838px;
+        letter-spacing: 0px;
+        font-size     : 16px;
+        color         : white;
+    }
+    
+    h3{
+        color:white;
+        font-size:40px ;
+        background-color: rgb(70, 134, 6);
+        border-color:  rgb(70, 134, 6);
+        border-width: 40px;
+        border-style: solid;
+        padding: 40px 40px 40px 40px;
+        margin-left:-200px ;
+        margin-right: 1100px;
+        margin-top: -3px;
+        text-align: right;
+    
+    }
+    
+    h4{
+        color: rgb(70, 134, 6);
+        font-size:20px ;
+        background-color:white;
+        width: 350px;
+        height: 150px; 
+        padding: 50px;  
+        margin-left:100px ;
+        margin-right:300px ;
+        margin-top: -40px; 
+        text-align: left;   
+    }
+    
+    p,h1{
+        color: black;
+        font-size:30;
+         font-weight:200px;
+         text-align: center;
+    }
+    
+      
+      #content2{
+        
+        height: 550px;
+        width: 75%;
+        background-image: url(img/Events.png);
+        padding: 60px;
+        margin-bottom: 200px;
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #logo{
+
+        margin-left:1100px;
+        margin-top: -100px;
+      height: 200px;
+      width: 300px;
+      padding: 20px;
+
+       
+      }
+      #navigation{
+        display              : grid;
+        grid-template-columns: 10% 17% 10% 10% 10% 13% 10%;
+        grid-gap             : 10px;
+        margin-top          : -100px;
+        font-size            : 18px;
+        word-spacing:-.5em;
+      
+        
+       
+        
+      }
+    .nav{
+      padding-top   : -1.1%;
+      width         : 838px;
+      letter-spacing: 0px;
+      font-size     : 16px;
+      color         : white;
+    }
+  
+
+      .column {
+        
+        float: left;
+        width: 30%;
+      }
+    
+      
+      #text{
+        color:  rgb(70, 134, 6);
+      }
+      h5{
+        color:  rgb(70, 134, 6);
+      }
+
+     #heading3{
+      color:white;
+      font-family: 'Oswald';
+      font-size:40px ;
+      background-color: rgb(70, 134, 6);
+      border-color:  rgb(70, 134, 6);
+      border-width: 40px;
+      border-style: solid;
+      padding: 80px;
+      width: 200px;
+      margin-left:1100px ;
+      margin-right:-60px;
+      margin-top: -0px;
+      font-size: 40px;
+      text-align: left;
+     }
+     #heading4{
+       font-size: 20px;
+       width: 400px;
+        height: 100px; 
+        padding: 20px;  
+        margin-left:1000px ;
+        margin-right:-60px ;
+        margin-top: -40px; 
+        text-align: left;
+        border-color: white;
+        background-color: white;
+        border-width: 30px;
+        border-style: solid;
+        color:  rgb(70, 134, 6);
+      
+     }
+      .footer{
+       
+        padding-top: 50px;
+        background-color:black;
+        color: white;
+        text-align: center;
+      }
+      #Copyright{
+       margin-left: 40%;
+       margin-right: 40%;
+       font-size: 14px;
+       color:white;
+      }
+      
+      
+   
+      
