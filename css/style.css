@@ -1,14 +1,30 @@
 body {
-    top    : 0;
-    margin : 0;
-    padding: 0;
+    top        : 0;
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
+
+
 
 header {
     background-image : url(../img/hero-img1.jpg);
     background-repeat: no-repeat;
     background-size  : cover;
-    height           : 800px;
+    height           : 900px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    outline: none;
+}
+
+.navtop:hover {
+    color: green;
 }
 
 
@@ -27,8 +43,8 @@ header {
 
 nav {
     display              : grid;
-    grid-template-columns: 10% 17% 10% 10% 10% 13% 10%;
-    grid-gap             : 10px;
+    grid-template-columns: 10% 17% 10% 10% 10% 13% 13%;
+    grid-gap             : 8px;
     padding-top          : 3%;
     font-size            : 18px;
     height               : 8%;
@@ -42,27 +58,195 @@ nav {
     color         : rgb(226, 226, 226);
 }
 
-.header-box{
-    margin-right: 60%;
-    color: white;
-    padding-top: 9%;
+.header-box {
+    margin-right: 67%;
+    color       : white;
+    padding-top : 9%;
     padding-left: 5%;
 }
-.header-welcome{
+
+.header-welcome {
     font-size: 60px;
 }
-.header-text{
+
+.header-text {
     font-size: 35px;
 }
-span{
+
+.name {
     color: #46931a;
 }
 
-.btn1{
-    width: 250px;
+.btn1 {
+    border: none;
+    width : 250px;
     height: 70px;
+    font-size: 16px;
+    color: #919191;
+    cursor: pointer;
 }
 
-/* width: 100%;
-    padding: 40px;
-} */
+.btn1:hover {
+    border: none;
+}
+
+.headings{
+    padding: 0;
+    top: 0;
+    margin: 0;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    background-color: #028D00;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* section 1 - latest section styling */
+
+.latest-section{
+    margin-top: 100px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.row:after {
+    content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 100px;
+}
+.announce {
+    align-content: center;
+    
+}
+#younglings {
+    width: 400px;
+    height: 200px;
+}
+
+#date {
+    color: #33DC39;
+    font-family: Source Sans Pro;
+    text-align: left;
+    padding-right: 50px;
+    padding-left: 65px;
+    margin-top: -15px;
+}
+
+#title {
+    color: #028D00;
+    font-family: Source Sans Pro;
+    text-align: left;
+    padding-right: 50px;
+    padding-left: 65px;
+    padding-top: -15px;
+}
+
+#content {
+    padding-right: 50px;
+    padding-left: 65px;
+    margin-top: -15px;
+    text-align: left;
+}
+
+#more {
+    display: none;
+}
+ .morebtn{
+    background-color: #616161;
+    border:#707070;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 43.5%;
+    margin-right: 43.5%;
+    margin-bottom: 7% ;
+}
+.morebtn:hover{
+    background-color: #61616177;
+} 
+
+.container2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 30px 30px 30px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* styling of the footer section */
+
+footer {
+    background-color: black;
+    height          : 400px;
+    color           : white;
+    font-size       : 20px;
+}
+
+.footerbtn {
+    background-color: black;
+    color           : white;
+    font-size       : 15px;
+    width           : 200px;
+    height          : 70px;
+    border          : white 2px solid;
+}
+
+.footerbtn:hover {
+    background-color: white;
+    color           : black;
+}
+
+.fa {
+    color    : white;
+    font-size: 30px;
+}
+
+footer .footerbtn {
+    margin-top: 50px;
+    color     : white;
+    cursor: pointer;
+
+}
+
+footer div {
+    padding-top: 30px;
+    text-align : center;
+    font-size  : 22px;
+}
+
+.socialmedia {
+    display              : grid;
+    grid-template-columns: auto auto auto;
+    padding-left         : 45%;
+    padding-right        : 45%;
+}
+
+.fa:hover {
+    color: rgba(255, 251, 251, 0.205);
+}
+
+.ylingsmail {
+    color    : rgb(0, 255, 255);
+    font-size: 25px;
+}
+
