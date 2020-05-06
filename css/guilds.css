@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+}
+
+
+
+#logo{
+    float: right;
+    /*height: 550px;*/
+    width: 75%;
+    padding: 60px;
+    margin-left: -500px;
+    margin-top: -550px;
+    height: 200px;
+    width: 500px;
+    margin-right: 0;
+    
+}
+
+#nav-link-wrapper{
+    background-image: url(../img/cap.jpeg); 
+    background-size: cover;
+    padding-bottom: 400px;
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-link-wrapper a{
+    margin: 0;;
+    padding: 5px 20px;
+    color: #fff;
+    overflow: auto;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#nav-link-wrapper a:hover{
+    color: rgb(43, 221, 43);
+    transition-delay: 0.3s;
+}
+
+
+#heading{
+    background-color: #028D00;
+    color: #fff;
+    font-size: 90px;
+    margin-left: 850px;
+    margin-top: -290px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+#subheading{
+    background-color: #fff;
+    color: #028D00;
+    font-size: 50px;
+    margin-left: 650px;
+    margin-top: -70px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+.images img{
+    height: 500px;
+    width: 380px;
+    margin: 200px;
+}
+
+
+#footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 220px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 200px;
+}
+
+#footer h3{
+    border: #fff solid 2px;
+    margin-left: 44%;
+    margin-right: 44%;
+    font-size: 14px;
+    padding: 15px;
+}
+
+#link{
+    padding-bottom: non;
+}
+
+#copyright{
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#app{
+    background-color: red;
+    margin-right: 63.44%;
+    margin-left: 12.6%;
+    text-align: center;
+    margin-top: -205px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#game{
+    background-color: orange;
+    margin-left: 62%;
+    margin-right: 13.9%;
+    text-align: center;
+    margin-top: -74px;
+    margin-bottom: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+#backend{
+    background-color: rgb(36, 214, 75);
+    margin-right: 63.44%;
+    margin-left: 12.6%;
+    text-align: center;
+    margin-top: -205px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+#robotics{
+    background-color: green;
+    margin-left: 62%;
+    margin-right: 13.9%;
+    text-align: center;
+    margin-top: -74px;
+    margin-bottom: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+#machine{
+    background-color: rgb(114, 230, 139);
+    margin-right: 63.44%;
+    margin-left: 12.6%;
+    text-align: center;
+    margin-top: -205px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+#design{
+    background-color: rgb(97, 157, 235);
+    margin-left: 62%;
+    margin-right: 13.9%;
+    text-align: center;
+    margin-top: -74px;
+    margin-bottom: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+} 
+
+#outSystems{
+    background-color: rgb(66, 109, 228);
+    margin-right: 63.44%;
+    margin-left: 12.6%;
+    text-align: center;
+    margin-top: -205px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#dataScience{
+    background-color: rgb(148, 38, 182);
+    margin-left: 62%;
+    margin-right: 13.9%;
+    text-align: center;
+    margin-top: -74px;
+    margin-bottom: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#aws{
+    background-color: rgb(206, 27, 206);
+    margin-right: 63.44%;
+    margin-left: 12.6%;
+    text-align: center;
+    margin-top: -205px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#internet{
+    background-color: rgb(148, 38, 182);
+    margin-left: 62%;
+    margin-right: 13.9%;
+    text-align: center;
+    margin-top: -74px;
+    margin-bottom: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#webDev{
+    background-color: rgb(228, 252, 13);
+    margin-right: 63.44%;
+    margin-left: 12.6%;
+    text-align: center;
+    margin-top: -205px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#cyber{
+    background-color: rgb(240, 114, 10);
+    margin-left: 62%;
+    margin-right: 13.9%;
+    text-align: center;
+    margin-top: -74px;
+    margin-bottom: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
