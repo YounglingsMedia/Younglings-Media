@@ -45,15 +45,14 @@ h3{
       font-size:40px ;
       background-color: #028D00;
       border-color:  #028D00;
-      border-width: 30px;
+      border-width: 50px;
       border-style: solid;
-      padding: 40px 40px 40px 40px;
-      margin-left:-15%;
+      padding: 40px;
+      margin-left:-30%;
       margin-right: 100%;
       margin-top: -3px;
       text-align: right;
-      min-width:35% ;
-      max-height:100%;
+      width:50% ;   
   }
   
 h4{
@@ -69,7 +68,7 @@ h4{
       text-align: left;   
       padding: 30px;  
       border-color: #fff;
-      border-width: 40px;
+      border-width: 55px;
       border-style: solid;
       box-shadow: 0 2px 8px 0 #000;
   }
@@ -81,20 +80,31 @@ h1{
        text-align: center;
   }
 
-  #para{
-    color: black;
-      font-size:20px;
-      margin-top:-30px ;
-  }
+  
 
   #content{
   display:inline-block;
   object-fit: contain;
- margin-left: 30%;
+  margin-left:30%;
   width:100%;
   background-color: #fff;
   }
+  h6{
+    font-size: 18px;
+   padding-top: 20px; 
+  }
 
+hr{
+    border:2px solid #028D00;
+    margin-top: -1px;
+  }
+  
+  #para{
+    color: black;
+      font-size:20px;
+      margin-top:-40px ;
+  }
+  
  #content2{
       height:500px;
       background-image: url(img/Events.png);
@@ -108,7 +118,7 @@ h1{
     }
 
   #logo{
-      margin-left:78%;
+      margin-left:76.6%;
       margin-top: -100px;
       padding-top: 40px;
        height: 220px;
@@ -142,23 +152,23 @@ h1{
     background-color: #028D00;
     border-color:#028D00 ;
     border-width: 40px;
+    width: 30%;
     border-style: solid;
-    padding: 40px 40px 40px 40px;
-    min-width:20% ;
+    padding: 40px;
     max-height:100%;
-    margin-left:70%;
+    margin-left:62%;
     margin-right:-20px;
     margin-top:60px;
-    text-align: center;
+    text-align: left;
    }
 
   #heading4{
      font-family: 'Oswald';
      font-size: 30px;
-     max-width: 40%;
-      max-height: 12%; 
-      padding: 30px;  
-      margin-left:54%;
+     max-width: 50%;
+      max-height: 16%; 
+      padding: 20px;  
+      margin-left:55%;
       margin-right:-100px ;
       margin-top: -40px; 
       text-align: left;
@@ -178,16 +188,7 @@ h5{
     color:  #028D00;
   }
 
-h6{
-    font-size: 20px;
-    padding-top:40px;
-  }
 
-hr{
-    border:2px solid #028D00;
-    margin-top: -1px;
-  }
-  
 @media only screen and (min-width:600px){
       .column {
         display: block;
@@ -229,5 +230,3 @@ footer{
        font-size: 20px;
        color:#fff; 
       }
-
-      
