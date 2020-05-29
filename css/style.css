@@ -2,6 +2,8 @@ body {
     top        : 0;
     margin     : 0;
     padding    : 0;
+    overflow-x: hidden;
+    width: auto;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
@@ -38,7 +40,6 @@ button {
 }
 
 .logo {
-    max-width: 250px;
     width    : 100%;
 
 }
@@ -189,8 +190,7 @@ nav {
     width           : 200px;
     height          : 50px;
     font-size       : 25px;
-    margin-left     : 43.5%;
-    margin-right    : 43.5%;
+    margin-left     : 45%;
     margin-bottom   : 7%;
 }
 
@@ -337,10 +337,7 @@ label {
     grid-gap             : 39%;
     margin-left          : 0%;
     margin-right         : 0%;
-
 }
-
-
 
 .btn {
     border-color    : transparent;
