@@ -106,7 +106,6 @@ hr{
   }
   
  #content2{
-      height:500px;
       background-image: url(img/Events.png);
       padding: 20px;
       margin-bottom: 200px;
@@ -115,13 +114,14 @@ hr{
       margin-right: -10px; 
       background-repeat: no-repeat;
       background-size: cover;
+    height: 600px;
     }
 
   #logo{
       margin-left:76.6%;
       margin-top: -100px;
-      padding-top: 40px;
-       height: 220px;
+      padding-top: 60px;
+       height: 200px;
       width: 25%;     
     }
 
@@ -151,30 +151,30 @@ hr{
     font-size:40px ;
     background-color: #028D00;
     border-color:#028D00 ;
-    border-width: 40px;
-    width: 30%;
+    border-width: 50px;
     border-style: solid;
     padding: 40px;
-    max-height:100%;
+    width: 28%;
+    min-height:10%;
     margin-left:62%;
     margin-right:-20px;
-    margin-top:60px;
-    text-align: left;
+    margin-top:50px;
+    text-align: center;
    }
 
   #heading4{
      font-family: 'Oswald';
      font-size: 30px;
-     max-width: 50%;
-      max-height: 16%; 
-      padding: 20px;  
-      margin-left:55%;
+      width: 38.3%;
+      height: 5%; 
+      padding: 30px;  
+      margin-left:50%;
       margin-right:-100px ;
       margin-top: -40px; 
       text-align: left;
       border-color: #fff;
       background-color:  #fff;
-      border-width: 30px;
+      border-width: 70px;
       border-style: solid;
       color:  #028D00;
       box-shadow: 0 2px 8px 0 #000;
