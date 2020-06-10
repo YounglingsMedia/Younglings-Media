@@ -1,0 +1,1752 @@
+body{
+  margin: 0px;
+}
+
+p{
+  margin: 0;
+}
+
+nav{
+  list-style-type: none;
+  position: absolute;
+}
+
+nav li{
+  display: inline;
+  margin-left: 37.5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav a{
+  color: #FFF;
+  font-family: Oswald, monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+nav a:link{
+  color: #FFF;
+}
+
+nav a:active,nav a:visited:hover,nav a:hover{
+  color: #028D00;
+}
+
+#RightNav{
+  right: 105px;
+  top: 160.75px;
+}
+
+#RighttNav{
+  right: 105px;
+  top: 105px;
+  z-index: 2;
+}
+
+#LeftNav{
+  left: 105px;
+  top: 105px;
+  z-index: 2;
+}
+
+#Landing{
+  position: relative;
+  width: 100%;
+  height: 853px;
+}
+
+#Landing #HomePageBG{
+  position: absolute;
+  z-index: -1;
+}
+
+#Landing nav{
+  z-index: 0;
+}
+
+#Landing #YounglingsLogo{
+  z-index: 1;
+  position: relative;
+  left: 105px;
+  top: 108.75px;
+}
+
+#HomePageBG{
+  width: 100%;
+  max-width: 1920px;
+  max-height: 1037px;
+}
+
+#YounglingsLogo{
+  width: 24%;
+  height: 10%;
+  max-width: 24%;
+  max-height: 10%;
+  min-width: 12%;
+  min-height: 5%;
+}
+
+#WhatIsYounglingsButton{
+  position: relative;
+  left: 105px;
+  top: 266.25px;
+}
+
+#WhatIsYounglingsButton:hover{
+  opacity: 0.75;
+}
+
+#WhatIsYounglingsButton a{
+  position: absolute;
+  background-color: #FFF;
+
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 20.25px;
+  padding-bottom: 20.25px;
+}
+
+#WhatIsYounglingsButton p{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 21.5px;
+  text-transform: uppercase;
+  color: #919191;
+  margin: 0;
+}
+
+/*-------------------------------------------------*/
+
+#PageBannerL{
+  width:100%;
+  height:650px;
+
+  position: relative;
+}
+
+#PageBannerL #BannerImageL{
+  width: 67%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+#PageBannerL #YounglingsLogoBannerL img{
+  width: 26%;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 45px 52.5px;
+
+  position: relative;
+  left: 0;
+  z-index: 1;
+}
+
+#LTBanner{
+  width: 37.5%;
+  height: 232.5px;
+
+  font-family: Oswald, monospace;
+  font-size: 82.5px;
+  color: #FFF;
+  background-color: #028D00;
+  text-align: left;
+  text-transform: capitalize;
+
+  position: absolute;
+  left: 0;
+  top: 248.25px;
+}
+
+#LSBanner{
+  width: 58%;
+  height: 168.75px;
+
+  background-color: #FFF;
+  color: #028D00;
+
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  font-family: Oswald, monospace;
+  font-size: 52.5px;
+  text-align: left;
+
+  position: absolute;
+  left: 0;
+  top: 480.75px;
+}
+
+#LTBanner p{
+  width: 324px;
+  padding: 50px;
+  padding-left: 109.5px;
+}
+
+#LSBanner p{
+  width: 720px;
+  padding-left: 109.5px;
+}
+
+/*--------------------------------*/
+
+#PageBannerR{
+  width:100%;
+  height:650px;
+
+  position: relative;
+}
+
+#PageBannerR #BannerImageR{
+  width: 67%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+#PageBannerR #YounglingsLogoBannerR img{
+  width: 26%;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 45px 52.5px;
+
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+#RTBanner{
+  width: 37.5%;
+  height: 232.5px;
+
+  font-family: Oswald, monospace;
+  font-size: 82.5px;
+  color: #FFF;
+  text-align: right;
+  text-transform: capitalize;
+
+  background-color: #028D00;
+
+  position: absolute;
+  right: 0;
+  top: 248.25px;
+}
+
+#RSBanner{
+  width: 58%;
+  height: 168.75px;
+
+  background-color: #FFF;
+  color: #028D00;
+
+  font-family: Oswald, monospace;
+  font-size: 52.5px;
+  text-align: left;
+
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.1);
+  position: absolute;
+  right: 0;
+  top: 480.75px;
+}
+
+#PageBannerR #RTBanner p{
+  width: 324px;
+  padding: 50px;
+  padding-right: 109.5px;
+  float: right;
+}
+
+#PageBannerR #RSBanner p{
+  width: 720px;
+  padding-right: 109.5px;
+  float: right;
+}
+
+/*---------------------------------------------------*/
+
+#PageBannerR #BannerImageR{
+  width: 67%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+#PageBannerR #YounglingsLogoBannerR img{
+  width: 26%;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 45px 52.5px;
+
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+#RightTitleBanner{
+  width: 37.5%;
+  height: 232.5px;
+
+  font-family: Oswald, monospace;
+  font-size: 82.5px;
+  color: #FFF;
+  text-align: right;
+  text-transform: capitalize;
+
+  background-color: #028D00;
+
+  position: absolute;
+  right: 0;
+  top: 248.25px;
+}
+
+#RightSubheadingBanner{
+  width: 58%;
+  height: 168.75px;
+
+  background-color: #FFF;
+  color: #028D00;
+
+  font-family: Oswald, monospace;
+  font-size: 52.5px;
+  text-align: left;
+
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.1);
+  position: absolute;
+  right: 0;
+  top: 480.75px;
+}
+
+#PageBannerR #RightTitleBanner p{
+  width: 324px;
+  padding: 50px;
+  padding-right: 109.5px;
+  float: right;
+}
+
+#PageBannerR #RightSubheadingBanner p{
+  width: 775px;
+  padding-right: 109.5px;
+  float: right;
+}
+
+/*--------------------------------------------------*/
+
+#PageBannerL #BannerImageL{
+  width: 67%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+#PageBannerL #YounglingsLogoBannerL img{
+  width: 26%;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 45px 52.5px;
+
+  position: relative;
+  left: 0;
+  z-index: 1;
+}
+
+#LeftTitleBanner{
+  width: 37.5%;
+  height: 232.5px;
+
+  font-family: Oswald, monospace;
+  font-size: 82.5px;
+  color: #FFF;
+  background-color: #028D00;
+  text-align: left;
+  text-transform: capitalize;
+
+  position: absolute;
+  left: 0;
+  top: 248.25px;
+}
+
+#PageBannerL .Announcements-Banner{
+  width: 42.4%;
+}
+
+#LeftSubheadingBanner{
+  width: 58%;
+  height: 168.75px;
+
+  background-color: #FFF;
+  color: #028D00;
+
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  font-family: Oswald, monospace;
+  font-size: 52.5px;
+  text-align: left;
+
+  position: absolute;
+  left: 0;
+  top: 480.75px;
+}
+
+#LeftTitleBanner p{
+  width: 350px;
+  padding: 50px;
+  padding-left: 109.5px;
+}
+
+#LeftSubheadingBanner p{
+  width: 720px;
+  padding-left: 109.5px;
+}
+
+/*-----------------------------------------------------*/
+
+.Oswald p{
+  font-family: Oswald,monospace;
+  color: #FFF;
+
+  width: 26.4%;
+  height: 36%;
+
+  max-width: 507px;
+  max-height: 356px;
+
+  position: relative;
+  left: 105px;
+  top: 221.25px;
+}
+
+.Oswald #HomePageHeading{
+  font-size:45px;
+}
+
+.Oswald #HomePageHeadingGreen{
+  font-size:45px;
+  color: #028D00;
+}
+
+.Oswald{
+  font-size:30px;
+}
+
+.Section-Ribbon{
+  background-color: #028D00;
+  font-family: Oswald, monospace;
+  font-size: 52.5px;
+  color: #FFF;
+  text-align: center;
+  opacity: 0.85;
+  margin-bottom: 75px;
+}
+
+.Section-Ribbon p{
+  margin: 0;
+  width: 100%;
+  background-color: #028D00;
+}
+
+#Sect{
+  margin: 75px 105px;
+}
+
+.Content-Row{
+  margin-bottom: 60px;
+}
+
+.Content-Row .Content-Bubble{
+  width: 32.5%;
+  height: auto;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #F3F3F3;
+
+  margin: 0 12px;
+}
+
+.Content-Row .Content-Bubble:first-child{
+  margin: 0;
+}
+
+.Content-Row .Content-Bubble:last-child{
+  margin: 0;
+}
+
+.Content-Bubble img{
+  width: 100%;
+  height: auto;
+}
+
+.Content-Bubble p{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000;
+  font-size: 19.5px;
+  font-weight: 100;
+  background-color: #F3F3F3;
+}
+
+.Content-Bubble .ContentBubbleTitle{
+  font-size: 22.5px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #028D00;
+}
+
+.Content-Bubble .ContentBubbleDate{
+  font-size: 16.5px;
+  font-weight: 100;
+  color: #33DC39;
+}
+
+.Anchor-Button{
+  width: 150px;
+  margin: auto;
+
+  font-family: Oswald, monospace;
+  font-size: 22.5px;
+  font-weight: 200;
+  color:#FFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Anchor-Button a:hover, .Anchor-Button a:active{
+  background-color: #C1BDBD;
+  cursor: pointer;
+}
+
+.Anchor-Button a{
+  color:#FFF;
+  padding: 9.4px 50.25px;
+  background-color: #616161;
+}
+
+.Section_Image{
+  width:100%;
+
+  max-width: 1920px;
+  max-height: 800px;
+}
+
+.Section_Image .SectionImage {
+  width: 100%;
+  height: 100%;
+}
+
+.Announcements-Section{
+  width: 690px;
+  margin: auto;
+  margin-bottom: 75px;
+}
+
+.Announcement-Bubble{
+  width:690px;
+  height:187.5px;
+  margin:0;
+  margin-bottom: 75px;
+}
+
+.Announcement-Bubble .AnnouncementIcon{
+  width: 187.5px;
+  float: left;
+  border-radius: 50%;
+}
+
+.Announcement-Bubble .Announcement-Bubble-Info{
+  float: right;
+  width: 465px;
+  margin: 18.75px 0;
+  overflow: hidden;
+}
+
+.Announcement-Bubble .Announcement-Bubble-Text{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22.5px;
+  font-weight: 100;
+  color: #000;
+}
+
+.Announcement-Bubble .Announcement-Bubble-Title{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  color: #000;
+}
+
+.Announcement-Bubble-Info .Announcement-Bubble-Line{
+  width: 100%;
+  height: 5px;
+  float: left;
+  background-color: #028D00;
+}
+
+.Team-Sect{
+  width: 810px;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.Team_Member_Card{
+  width:810px;
+  height: 225px;
+  margin-bottom: 75px;
+  display: block;
+}
+
+.Team_Member_Card .Team-Member-Image{
+  width: 225px;
+  object-fit: cover;
+  display: inline;
+  float: left;
+  border-radius: 50%;
+  margin: 0;
+  margin-right: 30px;
+}
+
+.Team_Member_Card p{
+  width: 553.5px;
+  float: right;
+  margin: 33px 0;
+  display: inline;
+}
+
+.Team_Member_Card .Team-Member-Name{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 47.25px;
+  color: #000;
+}
+
+.Team_Member_Card .Team-Member-Skills{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32.25px;
+  font-weight: 200;
+  color: #028D00;
+}
+
+.Team_Member_Card .Team-Member-Link{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32.25px;
+  font-weight: 100;
+  color: #52C2C8;
+}
+
+.Team_Member_Card a, .Team_Member_Card a:link{
+  text-decoration: none;
+  color: #52C2C8;
+}
+
+.Team_Member_Card a:active,.Team_Member_Card a:hover{
+  color: #69D6DC;
+}
+
+.Submission-Sect{
+  width: 816px;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.Input-Field{
+  width: 816px;
+  height: 142.5px;
+  margin-bottom: 75px;
+}
+
+.Input-Field p{
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 250;
+  text-align: center;
+}
+
+.Input-Field input{
+  width:100%;
+  height: 101.25px;
+  padding: 10px 0;
+  border: none;
+  border-top: 9px solid #33DC39;
+  border-radius: 0 0 10px 10px;
+  outline:none;
+  color: #000;
+  font-family: "Source ans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 150;
+  text-align: center;
+  box-shadow: 7.5px 7.5px 10px rgba(0,0,0,0.1);
+}
+
+.Mini-Input-Field-Row{
+  width: 816px;
+  margin: auto;
+  margin-bottom: 75px;
+}
+
+.Mini-Input-Field{
+  width: 298.5px;
+  height: 142.5px;
+  display: inline-block;
+}
+
+.Mini-Input-Field p{
+  width: 100%;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 250;
+}
+
+.Mini-Input-Field input{
+  width:298.5px;
+  height: 101.25px;
+
+  border: none;
+  border-top: 9px solid #33DC39;
+  border-radius: 0 0 10px 10px;
+  outline:none;
+  color: #000;
+  font-family: "Source ans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 150;
+  text-align: center;
+  box-shadow: 7.5px 7.5px 10px rgba(0,0,0,0.1);
+}
+
+.Mini-Input-Field-Row .Mini-Input-Field:first-child{
+  margin: 0;
+  margin-right: 95.5px;
+}
+
+.Mini-Input-Field-Row .Mini-Input-Field:last-child{
+  margin: 0;
+  margin-left: 95.5px;
+}
+
+.Textarea-Field{
+  width:816px;
+  height: 304.5px;
+  margin-bottom: 75px;
+}
+
+.Textarea-Field p{
+  width: 100%;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 250;
+}
+
+.Textarea-Field input[type=textarea]{
+  width: 100%;
+  height: 263.25px;
+  border: none;
+  border-top: 9px solid #33DC39;
+  border-radius: 0 0 10px 10px;
+  resize: none;
+  outline: none;
+  color: #000;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 250;
+  box-shadow: 7.5px 7.5px 10px rgba(0,0,0,0.1);
+}
+
+.Submit-Button{
+  width: 150px;
+  height: 52.5px;
+  margin: auto;
+}
+
+.Submit-Button input[type=submit]{
+  width: 100%;
+  height: 100%;
+  background-color: #616161;
+  border:none;
+  text-decoration: none;
+  cursor:pointer;
+  color: #FFF;
+  font-family: Oswald, monospace;
+  font-size: 22.5px;
+  font-weight: 200;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.Submit-Button input[type=submit]:hover, .Submit-Button input[type=submit]:active{
+  background-color: #C1BDBD;
+}
+
+.Guild-Bubble{
+  width: 477px;
+  height: auto;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 250;
+  text-align: center;
+
+  overflow: hidden;
+
+  display: inline-block;
+}
+
+.Guild-Bubble img{
+  width: 100%;
+  height: auto;
+  max-width: 477px;
+  max-height: 477px;
+}
+
+.Guild-Bubble p{
+  width:100%;
+
+  padding: 16.5px 0;
+}
+
+.Guild-Bubble a:link, .Guild-Bubble a:visited{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.GuildBubbleSection{
+  width: 1180px;
+  margin: 150px 0;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.GuildBubbleRow{
+  margin: 0;
+  margin-bottom: 150px;
+}
+
+.GuildBubbleRow .Guild-Bubble:first-child{
+  margin:0;
+  margin-right: 109.5px;
+}
+
+.GuildBubbleRow .Guild-Bubble:last-child{
+  margin:0;
+  margin-left: 109.5px;
+}
+
+.GuildBubbleSection .GuildBubbleRow:last-child{
+  margin-bottom: 150px;
+}
+
+#WebDevBubble{
+  background-color: #DB2222;
+}
+
+#WebDevBubble p{
+  color: #FFF;
+  background-color: #DB2222;
+}
+
+#WebDevBubble:hover{
+  background-color: #FFF;
+}
+
+#WebDevBubble:hover p{
+  color: #DB2222;
+  background-color: #FFF;
+}
+/*-----------------------------------*/
+#AppDevBubble{
+  background-color: #FF5520;
+}
+
+#AppDevBubble p{
+  color: #FFF;
+  background-color: #FF5520;
+}
+
+#AppDevBubble:hover{
+  background-color: #FFF;
+}
+
+#AppDevBubble:hover p{
+  color: #FF5520;
+  background-color: #FFF;
+}
+/*-----------------------------------*/
+#GameDevBubble{
+  background-color: #FF9720;
+}
+
+#GameDevBubble p{
+  color: #FFF;
+  background-color: #FF9720;
+}
+
+#GameDevBubble:hover{
+  background-color: #FFF;
+}
+
+#GameDevBubble:hover p{
+  color: #FF9720;
+  background-color: #FFF;
+}
+/*-----------------------------------*/
+#BackendDevBubble{
+  background-color: #98DB22;
+}
+
+#BackendDevBubble p{
+  color: #FFF;
+  background-color: #98DB22;
+}
+
+#BackendDevBubble:hover{
+  background-color: #FFF;
+}
+
+#BackendDevBubble:hover p{
+  color: #98DB22;
+  background-color: #FFF;
+}
+
+/*-----------------------------------*/
+#RoboticsBubble{
+  background-color: #22DB22;
+}
+
+#RoboticsBubble p{
+  color: #FFF;
+  background-color: #22DB22;
+}
+
+#RoboticsBubble:hover{
+  background-color: #FFF;
+}
+
+#RoboticsBubble:hover p{
+  color: #22DB22;
+  background-color: #FFF;
+}
+
+/*-----------------------------------*/
+#MachineLearningBubble{
+  background-color: #22DB60;
+}
+
+#MachineLearningBubble p{
+  color: #FFF;
+  background-color: #22DB60;
+}
+
+#MachineLearningBubble:hover{
+  background-color: #FFF;
+}
+
+#MachineLearningBubble:hover p{
+  color: #22DB60;
+  background-color: #FFF;
+}
+
+/*-----------------------------------*/
+#DesignBubble{
+  background-color: #22DBBC;
+}
+
+#DesignBubble p{
+  color: #FFF;
+  background-color: #22DBBC;
+}
+
+#DesignBubble:hover{
+  background-color: #FFF;
+}
+
+#DesignBubble:hover p{
+  color: #22DBBC;
+  background-color: #FFF;
+}
+
+/*-----------------------------------*/
+#OutsystemsBubble{
+  background-color: #2288DB;
+}
+
+#OutsystemsBubble p{
+  color: #FFF;
+  background-color: #2288DB;
+}
+
+#OutsystemsBubble:hover{
+  background-color: #FFF;
+}
+
+#OutsystemsBubble:hover p{
+  color: #2288DB;
+  background-color: #FFF;
+}
+/*-----------------------------------*/
+#DataScienceBubble{
+  background-color: #4A008A;
+}
+
+#DataScienceBubble p{
+  color: #FFF;
+  background-color: #4A008A;
+}
+
+#DataScienceBubble:hover{
+  background-color: #FFF;
+}
+
+#DataScienceBubble:hover p{
+  color: #4A008A;
+  background-color: #FFF;
+}
+/*-----------------------------------*/
+#IOTBubble{
+  background-color: #BE22DB;
+}
+
+#IOTBubble p{
+  color: #FFF;
+  background-color: #BE22DB;
+}
+
+#IOTBubble:hover{
+  background-color: #FFF;
+}
+
+#IOTBubble:hover p{
+  color: #BE22DB;
+  background-color: #FFF;
+}
+
+/*-----------------------------------*/
+#CybersecurityBubble{
+  background-color: #DB228B;
+}
+
+#CybersecurityBubble p{
+  color: #FFF;
+  background-color: #DB228B;
+}
+
+#CybersecurityBubble:hover{
+  background-color: #FFF;
+}
+
+#CybersecurityBubble:hover p{
+  color: #DB228B;
+  background-color: #FFF;
+}
+/*-----------------------------------*/
+#AWSBubble{
+  background-color: #FF5858;
+}
+
+#AWSBubble p{
+  color: #FFF;
+  background-color: #FF5858;
+}
+
+#AWSBubble:hover{
+  background-color: #FFF;
+}
+
+#AWSBubble:hover p{
+  color: #FF5858;
+  background-color: #FFF;
+}
+/*-----------------------------------*/
+
+.GuildRibbon{
+  width: 100%;
+  height: 8%;
+
+  max-width: none;
+  max-height: 150px;
+
+  font-family: Oswald, monospace;
+  font-size: 90px;
+  color: #FFF;
+  text-align: center;
+  opacity: 0.85;
+
+  margin-bottom: 75px;
+}
+
+.GuildContentBubble{
+  width: 42%;
+  height: 19%;
+
+  max-width: 812px;
+  max-height: 362px;
+
+  font-family: "Source Sans Pro", sans-serif;
+
+  border-radius: 5px;
+
+  margin: auto;
+  margin-bottom: 75PX;
+
+  overflow: hidden;
+}
+
+.GuildContentBubble:hover{
+  width: 44%;
+  height: 19%;
+
+  max-width: 838px;
+  max-height: 446px;
+}
+
+.GuildContentBubble h3{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 45px;
+  font-weight: 250;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000;
+  margin: 0px;
+}
+
+.GuildContentBubble:hover h3{
+  font-size:  46.5px;
+}
+
+.GuildContentBubble .Line{
+  width: 97%;
+  height: 5px;
+  margin: auto;
+}
+
+
+.GuildContentBubble p{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 150;
+  text-align: center;
+  color: #000;
+}
+
+.GuildContentBubble:hover p{
+  font-size: 28.5px;
+}
+
+.GuildContentBubble h6{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 250;
+  text-align: center;
+  margin: 0px;
+}
+
+
+.Resource{
+  width: 21%;
+  height: 27.3%;
+
+  max-width: 400px;
+  max-height: 520px;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32.5px;
+  font-weight: 250;
+  color: #FFF;
+  text-align: center;
+
+  display: inline-block;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 75px;
+}
+
+.Resource img{
+  width: 100%;
+  height: 77%;
+
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.Resource p{
+  margin: 0px;
+  width: 100%;
+  height: 23%;
+
+  max-width: 400px;
+  max-height: 120px;
+}
+
+/*-------------Web-Dev------------*/
+#Web-Dev #LTBanner{
+  background-color: #DB2222;
+}
+
+#Web-Dev #LSBanner{
+  color: #DB2222;
+}
+
+#Web-Dev .GuildRibbon{
+  background-color: #DB2222;
+}
+
+#Web-Dev .Line{
+  background-color: #DB2222;
+}
+
+#Web-Dev h6{
+  color: #DB2222;
+}
+
+#Web-Dev .GuildContentBubble:hover{
+  background-color: #DB2222;
+}
+
+#Web-Dev .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Web-Dev .GuildContentBubble:hover p, #Web-Dev .GuildContentBubble:hover h6, #Web-Dev .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Web-Dev .Resource{
+  background-color:#DB2222;
+}
+
+#Web-Dev .Resource p{
+  background-color: #DB2222;
+}
+/*-------------Game-Dev------------*/
+#Game-Dev #LTBanner{
+  background-color: #FF9720;
+}
+
+#Game-Dev #LSBanner{
+  color: #FF9720;
+}
+
+#Game-Dev .GuildRibbon{
+  background-color: #FF9720;
+}
+
+#Game-Dev .Line{
+  background-color: #FF9720;
+}
+
+#Game-Dev h6{
+  color: #FF9720;
+}
+
+#Game-Dev .GuildContentBubble:hover{
+  background-color: #FF9720;
+}
+
+#Game-Dev .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Game-Dev .GuildContentBubble:hover p, #Game-Dev .GuildContentBubble:hover h6, #Game-Dev .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Game-Dev .Resource{
+  background-color:#FF9720;
+}
+
+#Game-Dev .Resource p{
+  background-color: #FF9720;
+}
+/*-------------Robotics------------*/
+#Robotics #LTBanner{
+  background-color: #22DB22;
+}
+
+#Robotics #LSBanner{
+  color: #22DB22;
+}
+
+#Robotics .GuildRibbon{
+  background-color: #22DB22;
+}
+
+#Robotics .Line{
+  background-color: #22DB22;
+}
+
+#Robotics h6{
+  color: #22DB22;
+}
+
+#Robotics .GuildContentBubble:hover{
+  background-color: #22DB22;
+}
+
+#Robotics .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Robotics .GuildContentBubble:hover p, #Robotics .GuildContentBubble:hover h6, #Robotics .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Robotics .Resource{
+  background-color:#22DB22;
+}
+
+#Robotics .Resource p{
+  background-color: #22DB22;
+}
+/*-------------Design------------*/
+#Design #LTBanner{
+  background-color: #22DBBC;
+}
+
+#Design #LSBanner{
+  color: #22DBBC;
+}
+
+#Design .GuildRibbon{
+  background-color: #22DBBC;
+}
+
+#Design .Line{
+  background-color: #22DBBC;
+}
+
+#Design h6{
+  color: #22DBBC;
+}
+
+#Design .GuildContentBubble:hover{
+  background-color: #22DBBC;
+}
+
+#Design .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Design .GuildContentBubble:hover p, #Design .GuildContentBubble:hover h6, #Design .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Design .Resource{
+  background-color:#22DBBC;
+}
+
+#Design .Resource p{
+  background-color: #22DBBC;
+}
+/*-------------Data-Science------------*/
+#Data-Science #LTBanner{
+  background-color: #4A008A;
+}
+
+#Data-Science #LSBanner{
+  color: #4A008A;
+}
+
+#Data-Science .GuildRibbon{
+  background-color: #4A008A;
+}
+
+#Data-Science .Line{
+  background-color: #4A008A;
+}
+
+#Data-Science h6{
+  color: #4A008A;
+}
+
+#Data-Science .GuildContentBubble:hover{
+  background-color: #4A008A;
+}
+
+#Data-Science .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Data-Science .GuildContentBubble:hover p, #Data-Science .GuildContentBubble:hover h6, #Data-Science .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Data-Science .Resource{
+  background-color:#4A008A;
+}
+
+#Data-Science .Resource p{
+  background-color: #4A008A;
+}
+/*-------------Cybersecurity------------*/
+#Cybersecurity #LTBanner{
+  background-color: #DB118B;
+}
+
+#Cybersecurity #LSBanner{
+  color: #DB118B;
+}
+
+#Cybersecurity .GuildRibbon{
+  background-color: #DB118B;
+}
+
+#Cybersecurity .Line{
+  background-color: #DB118B;
+}
+
+#Cybersecurity h6{
+  color: #DB118B;
+}
+
+#Cybersecurity .GuildContentBubble:hover{
+  background-color: #DB118B;
+}
+
+#Cybersecurity .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Cybersecurity .GuildContentBubble:hover p, #Cybersecurity .GuildContentBubble:hover h6, #Cybersecurity .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Cybersecurity .Resource{
+  background-color:#DB118B;
+}
+
+#Cybersecurity .Resource p{
+  background-color: #DB118B;
+}
+
+/*-------------App-Dev------------*/
+#App-Dev #RTBanner{
+  background-color: #FF5520;
+}
+
+#App-Dev #RSBanner{
+  color: #FF5520;
+}
+
+#App-Dev .GuildRibbon{
+  background-color: #FF5520;
+}
+
+#App-Dev .Line{
+  background-color: #FF5520;
+}
+
+#App-Dev h6{
+  color: #FF5520;
+}
+
+#App-Dev .GuildContentBubble:hover{
+  background-color: #FF5520;
+}
+
+#App-Dev .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#App-Dev .GuildContentBubble:hover p, #App-Dev .GuildContentBubble:hover h6, #App-Dev .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#App-Dev .Resource{
+  background-color:#FF5520;
+}
+
+#App-Dev .Resource p{
+  background-color: #FF5520;
+}
+/*-------------Backend-Dev------------*/
+#Backend-Dev #RTBanner{
+  background-color: #98DB22;
+}
+
+#Backend-Dev #RSBanner{
+  color: #98DB22;
+}
+
+#Backend-Dev .GuildRibbon{
+  background-color: #98DB22;
+}
+
+#Backend-Dev .Line{
+  background-color: #98DB22;
+}
+
+#Backend-Dev h6{
+  color: #98DB22;
+}
+
+#Backend-Dev .GuildContentBubble:hover{
+  background-color: #98DB22;
+}
+
+#Backend-Dev .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Backend-Dev .GuildContentBubble:hover p, #Backend-Dev .GuildContentBubble:hover h6, #Backend-Dev .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Backend-Dev .Resource{
+  background-color:#98DB22;
+}
+
+#Backend-Dev .Resource p{
+  background-color: #98DB22;
+}
+/*-------------Machine-Learning------------*/
+#Machine-Learning #RTBanner{
+  background-color: #22DB60;
+}
+
+#Machine-Learning #RSBanner{
+  color: #22DB60;
+}
+
+#Machine-Learning .GuildRibbon{
+  background-color: #22DB60;
+}
+
+#Machine-Learning .Line{
+  background-color: #22DB60;
+}
+
+#Machine-Learning h6{
+  color: #22DB60;
+}
+
+#Machine-Learning .GuildContentBubble:hover{
+  background-color: #22DB60;
+}
+
+#Machine-Learning .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Machine-Learning .GuildContentBubble:hover p, #Machine-Learning .GuildContentBubble:hover h6, #Machine-Learning .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Machine-Learning .Resource{
+  background-color:#22DB60;
+}
+
+#Machine-Learning .Resource p{
+  background-color: #22DB60;
+}
+/*-------------Outsystems------------*/
+#Outsystems #RTBanner{
+  background-color: #2288DB;
+}
+
+#Outsystems #RSBanner{
+  color: #2288DB;
+}
+
+#Outsystems .GuildRibbon{
+  background-color: #2288DB;
+}
+
+#Outsystems .Line{
+  background-color: #2288DB;
+}
+
+#Outsystems h6{
+  color: #2288DB;
+}
+
+#Outsystems .GuildContentBubble:hover{
+  background-color: #2288DB;
+}
+
+#Outsystems .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#Outsystems .GuildContentBubble:hover p, #Outsystems .GuildContentBubble:hover h6, #Outsystems .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#Outsystems .Resource{
+  background-color:#2288DB;
+}
+
+#Outsystems .Resource p{
+  background-color: #2288DB;
+}
+/*-------------IOT------------*/
+#IOT #RTBanner{
+  background-color: #BE22DB;
+}
+
+#IOT #RSBanner{
+  color: #BE22DB;
+}
+
+#IOT .GuildRibbon{
+  background-color: #BE22DB;
+}
+
+#IOT .Line{
+  background-color: #BE22DB;
+}
+
+#IOT h6{
+  color: #BE22DB;
+}
+
+#IOT .GuildContentBubble:hover{
+  background-color: #BE22DB;
+}
+
+#IOT .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#IOT .GuildContentBubble:hover p, #IOT .GuildContentBubble:hover h6, #IOT .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#IOT .Resource{
+  background-color:#BE22DB;
+}
+
+#IOT .Resource p{
+  background-color: #BE22DB;
+}
+/*-------------AWS------------*/
+#AWS #RTBanner{
+  background-color: #FF5858;
+}
+
+#AWS #RSBanner{
+  color: #FF5858;
+}
+
+#AWS .GuildRibbon{
+  background-color: #FF5858;
+}
+
+#AWS .Line{
+  background-color: #FF5858;
+}
+
+#AWS h6{
+  color: #FF5858;
+}
+
+#AWS .GuildContentBubble:hover{
+  background-color: #FF5858;
+}
+
+#AWS .GuildContentBubble:hover .Line{
+  background-color: #FFF;
+}
+
+#AWS .GuildContentBubble:hover p, #AWS .GuildContentBubble:hover h6, #AWS .GuildContentBubble:hover h3{
+color: #FFF;
+}
+
+#AWS .Resource{
+  background-color:#FF5858;
+}
+
+#AWS .Resource p{
+  background-color: #FF5858;
+}
+
+
+footer{
+  position: relative;
+  width: 100%;
+  height:435px;
+  background-color: #000;
+  color: #FFF;
+}
+
+footer #WhatIsYounglingsButtonFooter{
+  position: relative;
+  width: 200px;
+  margin:auto;
+  top: 78.75px;
+}
+
+footer #WhatIsYounglingsButtonFooter a{
+  width: 100%;
+  color:#FFF;
+  font-family: Oswald, monospace;
+  font-size: 17.5px;
+  font-weight: 100;
+  padding: 18.75px 26.25px;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+}
+
+footer #WhatIsYounglingsButtonFooter a:active{
+  color:#000;
+  background-color: #FFF;
+}
+
+footer #WhatIsYounglingsButtonFooter a:hover{
+  color:#000;
+  background-color: #FFF;
+}
+
+footer #MediaIcons {
+  width: 180px;
+  height: 36px;
+  margin: auto;
+  position: relative;
+  top: 140px;
+
+}
+
+footer #MediaIcons img{
+  width:25%;
+
+  max-width: 36px;
+  display: inline;
+}
+
+footer #MediaIcons #FacebookLogo{
+  margin: 0;
+  margin-right: 30px;
+}
+
+footer #MediaIcons #TwitterLogo{
+  margin: 0;
+  margin-left: 30px;
+}
+
+footer #Email-Handle{
+  width: 243px;
+  margin: auto;
+  position: relative;
+  top: 188px;
+}
+
+footer #Email-Handle p{
+  font-family: "Lucida Sans Unicode", "Source Sans Pro", sans-serif;
+  font-size: 21px;
+  color: #52C2C8;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer #Copyright{
+  width: 600px;
+  margin: auto;
+  position: relative;
+  top:218px;
+}
+
+footer #Copyright p{
+  font-family: "Lucida Sans Unicode", "Source Sans Pro", sans-serif;
+  font-size: 21px;
+  color: #FFF;
+}
