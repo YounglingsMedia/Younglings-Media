@@ -34,9 +34,9 @@ button {
 
 .container {
     display              : grid;
-    grid-template-columns: 30% 65%;
+    grid-template-columns: 25% 70%;
     padding-top          : 5%;
-    padding-left         : 5%;
+    padding-left         : 0%;
 }
 
 .logo {
@@ -47,6 +47,7 @@ button {
 nav {
     display              : grid;
     grid-template-columns: 10% 17% 10% 10% 10% 10% 13% 13%;
+    padding-left: 25%;
     grid-gap             : 0px;
     padding-top          : 3%;
     font-size            : 18px;
@@ -268,6 +269,66 @@ h5 {
     width            : 100%;
     height           : 700px;
 }
+
+.Team-Sect{
+    width: 810px;
+    margin: auto;
+    margin-top: 75px;
+  }
+  
+  .Team_Member_Card{
+    width:810px;
+    height: 225px;
+    margin-bottom: 75px;
+    display: block;
+  }
+  
+  .Team_Member_Card .Team-Member-Image{
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+    display: inline;
+    float: left;
+    border-radius: 50%;
+    margin: 0;
+    margin-right: 30px;
+  }
+  
+  .Team_Member_Card p{
+    width: 553.5px;
+    float: right;
+    margin: 33px 0;
+    display: inline;
+  }
+  
+  .Team_Member_Card .Team-Member-Name{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 47.25px;
+    color: #000;
+  }
+  
+  .Team_Member_Card .Team-Member-Skills{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32.25px;
+    font-weight: 200;
+    color: #028D00;
+  }
+  
+  .Team_Member_Card .Team-Member-Link{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32.25px;
+    font-weight: 100;
+    color: #52C2C8;
+  }
+  
+  .Team_Member_Card a, .Team_Member_Card a:link{
+    text-decoration: none;
+    color: #52C2C8;
+  }
+  
+  .Team_Member_Card a:active,.Team_Member_Card a:hover{
+    color: #69D6DC;
+  }
 
 
                         /* Submissions styling */
