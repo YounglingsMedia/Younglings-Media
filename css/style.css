@@ -121,8 +121,18 @@ nav {
     margin-left:0% ;
     
 }
+.latest{
+    margin-top: 100px;
+    display       : grid;
+    grid-template-columns: 28% 28% 28%;
+    grid-gap: 5%;
+    margin-left: 5%;
+    margin-right: 0%;
+    padding-bottom: 100px;
+} 
 
 .row{
+    margin-top: 100px;
     display       : grid;
     grid-template-columns: 28% 28% 28%;
     grid-gap: 5%;
@@ -162,7 +172,7 @@ nav {
     padding-top  : -15px;
 }
 
-#content {
+.content {
     padding-right: 50px;
     padding-left : 50px;
     margin-top   : -15px;
@@ -212,10 +222,42 @@ nav {
 }
 
 .section2 {
-    height: 1150px;
+    height: 1750px;
 }
 
-.content {
+#content{
+    display         :inline-block;
+    object-fit      : contain;
+    margin-left     :30%;
+    width           :100%;
+    /* background-color: #fff; */
+    }
+    #column{
+      display       : block;
+      margin-bottom : 20px;
+      width         : 40%;
+    }
+  
+    h6{
+      font-size : 25px;
+     padding-top: 50px; 
+    }
+  
+  hr{
+      border    :2px solid #028D00;
+      margin-top: -1px;
+    }
+    
+    #para{
+      color       : black;
+        font-size :20px;
+        margin-top:-50px ;
+        margin-bottom: 100px;
+    }
+
+    
+
+/* .content {
     display              : grid;
     grid-template-columns: 20% 40%;
     font-family          : Source Sans Pro;
@@ -238,7 +280,7 @@ h5 {
     color     : black;
     margin-top: -100px;
     font-size : 18px;
-}
+} */
 
 .button {
     padding-top: 5%;
@@ -258,6 +300,31 @@ h5 {
 
 .events-section {
     padding-top: 5%;
+}
+@media only screen and (min-width:600px){
+.column {
+    display      : block;
+    margin-bottom: 20px;
+    padding      : 6px 20px;
+    float        : left;
+    width        : 100%;
+    }
+
+  .row:after {
+    content : "";
+    display : table;
+    clear   : both;
+    padding-bottom: 100px;
+    }
+  
+  .card {
+  box-shadow      : 0 2px 4px 0 #000;
+  background-color: #f1f1f1;
+}
+
+  .card:hover {
+  box-shadow: 0 6px 12px 0 #000;
+}
 }
 
 
@@ -342,7 +409,144 @@ h5 {
     height           : 700px;
 }
 
-form {
+.Submission-Sect{
+    width: 816px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+  
+  .Input-Field{
+    width: 816px;
+    height: 142.5px;
+    margin-bottom: 75px;
+  }
+  
+  .Input-Field p{
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 250;
+    text-align: center;
+  }
+  
+  .Input-Field input{
+    width:100%;
+    height: 101.25px;
+    padding: 10px 0;
+    border: none;
+    border-top: 9px solid #33DC39;
+    border-radius: 0 0 10px 10px;
+    outline:none;
+    color: #000;
+    font-family: "Source ans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 150;
+    text-align: center;
+    box-shadow: 7.5px 7.5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .Mini-Input-Field-Row{
+    width: 816px;
+    margin: auto;
+    margin-bottom: 75px;
+  }
+  
+  .Mini-Input-Field{
+    width: 298.5px;
+    height: 142.5px;
+    display: inline-block;
+  }
+  
+  .Mini-Input-Field p{
+    width: 100%;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 250;
+  }
+  
+  .Mini-Input-Field input{
+    width:298.5px;
+    height: 101.25px;
+  
+    border: none;
+    border-top: 9px solid #33DC39;
+    border-radius: 0 0 10px 10px;
+    outline:none;
+    color: #000;
+    font-family: "Source ans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 150;
+    text-align: center;
+    box-shadow: 7.5px 7.5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .Mini-Input-Field-Row .Mini-Input-Field:first-child{
+    margin: 0;
+    margin-right: 95.5px;
+  }
+  
+  .Mini-Input-Field-Row .Mini-Input-Field:last-child{
+    margin: 0;
+    margin-left: 95.5px;
+  }
+  
+  .Textarea-Field{
+    width:816px;
+    height: 304.5px;
+    margin-bottom: 75px;
+  }
+  
+  .Textarea-Field p{
+    width: 100%;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 250;
+  }
+  
+  .Textarea-Field input[type=textarea]{
+    width: 100%;
+    height: 263.25px;
+    border: none;
+    border-top: 9px solid #33DC39;
+    border-radius: 0 0 10px 10px;
+    resize: none;
+    outline: none;
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 250;
+    box-shadow: 7.5px 7.5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .Submit-Button{
+    width: 150px;
+    height: 52.5px;
+    margin: auto;
+  }
+  
+  .Submit-Button input[type=submit]{
+    width: 100%;
+    height: 100%;
+    background-color: #616161;
+    border:none;
+    text-decoration: none;
+    cursor:pointer;
+    color: #FFF;
+    font-family: Oswald, monospace;
+    font-size: 22.5px;
+    font-weight: 200;
+    text-transform: uppercase;
+    outline: none;
+  }
+  
+  .Submit-Button input[type=submit]:hover, .Submit-Button input[type=submit]:active{
+    background-color: #C1BDBD;
+  }
+
+/* form {
     margin-top          : 35px;
     margin-right: 30%;
     margin-left: 30%;
@@ -410,7 +614,7 @@ label {
     border          : none;
     cursor          : pointer;
     text-align      : center;
-}
+} */
 
 
                   /* styling of the footer section */
